@@ -36,3 +36,7 @@ These two sentences might use different words ("running" vs. "jogging") but conv
 4.k: Number of nearest neighbors for augmentation (0-3)
 5.epochs: Number of training epochs
 6.learning_rate: Learning rate for training
+```
+
+## Dataset
+Dataset can be found in the [`Semantic_Relatedness_SemEval2024`](https://github.com/mitul3011/Semantic-Textual-Relatedness/tree/main/Semantic_Relatedness_SemEval2024) folder.
