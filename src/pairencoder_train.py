@@ -46,7 +46,6 @@ def run(args) -> Union[List[float], float]:
         max_length=args.max_length,
         k=args.k,
         weak_training_epochs=args.weak_training_epochs,
-        weak_sampling_percentage=args.weak_sampling_percentage,
         seed=args.seed,
         save_to=args.save_to,
         verbose=args.verbose,
