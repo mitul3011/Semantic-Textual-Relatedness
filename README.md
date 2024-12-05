@@ -8,3 +8,7 @@ For example, the sentences:
 >"A dog is jogging in the park."
 
 These two sentences might use different words ("running" vs. "jogging") but convey essentially the same meaning, so they would be considered highly semantically similar.
+
+______
+
+Commands to Run the Code:
