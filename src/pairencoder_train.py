@@ -22,13 +22,13 @@ def run(args) -> Union[List[float], float]:
     logfile = get_log_path_from_args(args, starttime, evaluation_phase=EVALUATION_PHASE)
     os.makedirs(os.path.dirname(logfile), exist_ok=True)
 
-    train_df = get_data(lang=args.lang, train=True, clean=args.clean)
+    train_df = get_data(lang=args.lang, train=True)
     if args.lang == "esp":
         # workaround for missing data, use dev set for evaluating
-        dev_samples = get_pairs(get_data(lang=args.lang, train=False, clean=args.clean))
+        dev_samples = get_pairs(get_data(lang=args.lang, train=False))
     else:
         # otherwise, use test set
-        dev_samples = get_pairs(get_data(lang=args.lang, test=True, clean=args.clean))
+        dev_samples = get_pairs(get_data(lang=args.lang, test=True))
 
     train_samples = get_pairs(train_df)
     evaluator = CorrelationEvaluator.load(dev_samples)
