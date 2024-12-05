@@ -8,7 +8,7 @@ from sentence_transformers.evaluation import (
     SimilarityFunction,
 )
 from sentence_transformers.losses import CosineSimilarityLoss
-from sentence_transformers.util import InputExample
+from sentence_transformers import InputExample
 from torch import nn
 from torch.utils.data import DataLoader
 
