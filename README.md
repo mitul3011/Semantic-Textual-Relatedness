@@ -1,13 +1,13 @@
 # Semantic Textual Relatedness
-Semantic Textual Relatedness (STR) refers to the degree to which two pieces of text (usually sentences or short passages) share the same meaning or convey similar information. The goal is to measure how semantically similar two texts are, regardless of their surface-level differences (like word choice or sentence structure).
+Two sentences are considered semantically similar when they have a paraphrasal or entailment relation. On the other hand, relatedness is a much broader concept that accounts for all the commonalities between two sentences: whether they are on the same topic, express the same view, originate from the same time period, one elaborates on (or follows from) the other, etc.
 
 For example, the sentences:
 
->"The dog is running in the park."
+>"There was a lemon tree next to the house."
 
->"A dog is jogging in the park."
+>"The boy enjoyed reading under the lemon tree."
 
-These two sentences might use different words ("running" vs. "jogging") but convey essentially the same meaning, so they would be considered highly semantically similar.
+These two sentences are highly related.
 
 ## Commands to Run the Code:
 1. Download the code by running command:
