@@ -3,7 +3,7 @@ Semantic Textual Similarity (STS) refers to the degree to which two pieces of te
 
 For example, the sentences:
 
-"The dog is running in the park."
+>"The dog is running in the park."
+>"A dog is jogging in the park."
 
-"A dog is jogging in the park."
 These two sentences might use different words ("running" vs. "jogging") but convey essentially the same meaning, so they would be considered highly semantically similar.
