@@ -1,5 +1,5 @@
 # Semantic Textual Relatedness
-Semantic Textual Similarity (STS) refers to the degree to which two pieces of text (usually sentences or short passages) share the same meaning or convey similar information. The goal is to measure how semantically similar two texts are, regardless of their surface-level differences (like word choice or sentence structure).
+Semantic Textual Relatedness (STR) refers to the degree to which two pieces of text (usually sentences or short passages) share the same meaning or convey similar information. The goal is to measure how semantically similar two texts are, regardless of their surface-level differences (like word choice or sentence structure).
 
 For example, the sentences:
 
